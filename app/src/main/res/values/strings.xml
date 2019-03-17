@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="username">Логин</string>
+    <string name="email">Почтовый адрес</string>
+    <string name="password">Пароль</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="alreadyHaveAccount">У Вас уже есть аккаунт?</string>
+    <string name="logIn">Войти</string>
+    <string name="returnToRegister">Вернуться к регистрации</string>
+    <string name="addPhoto">Выбрать фото</string>
+    <string name="usersList">Пользователи</string>
+    <string name="messages">Сообщения</string>
+    <string name="logOut">Выйти</string>
+    <string name="enterYourUserName">Введите логин</string>
+    <string name="enterYourEmail">ВВедите адрес почты</string>
+    <string name="enterYourPassword">Введите пароль</string>
+    <string name="registerError">Ошибка при регистрации</string>
+    <string name="logInError">Ошибка при входе</string>
+    <string name="wrongLoginOrPassword">Неверный логин или пароль</string>
+    <string name="settings">Настройки</string>
+    <string name="userName">Имя пользователя</string>
+    <string name="enterMessage">Введите сообщение</string>
+    <string name="sendMessage">Отправить</string>
+    <string name="lastMessage">Последнее сообщение</string>
+    <string name="update">Обновить</string>
+</resources>

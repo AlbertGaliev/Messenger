@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#207799</color>
+    <color name="colorPrimaryDark">#0e244d</color>
+    <color name="colorAccent">#d81b60</color>
+
+    <color name="logInBackground">#207799</color>
+    <color name="logInButton">#0e244d</color>
+    <color name="chatBackground">#3290b4</color>
+</resources>
