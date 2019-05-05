@@ -37,7 +37,7 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
 
-        chat_recyclerView_chat.adapter = adapter
+        chat_recyclerView_chat.adapter = this.adapter
         toUser = intent.getParcelableExtra<User>("Key")
         supportActionBar?.title = toUser?.userName
 
