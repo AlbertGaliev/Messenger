@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toolbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.*
 import com.google.firebase.firestore.EventListener
@@ -37,10 +38,15 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
 
-        chat_recyclerView_chat.adapter = this.adapter
+        chat_recyclerView_chat.adapter = adapter
         toUser = intent.getParcelableExtra<User>("Key")
         supportActionBar?.title = toUser?.userName
 
+        /*var mToolbar = findViewById<android.support.v7.widget.Toolbar>(R.id.chat_toolbar)
+        setSupportActionBar(mToolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.setTitle("MyTitle")*/
         send_button_chat.setOnClickListener {
             performSendMessage()
         }
