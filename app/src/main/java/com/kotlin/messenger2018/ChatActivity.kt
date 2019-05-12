@@ -38,6 +38,9 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
 
+        //setSupportActionBar(findViewById(R.id.toolbar_chat))
+        //supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         chat_recyclerView_chat.adapter = adapter
         toUser = intent.getParcelableExtra<User>("Key")
         supportActionBar?.title = toUser?.userName

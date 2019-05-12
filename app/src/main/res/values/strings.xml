@@ -23,4 +23,7 @@
     <string name="sendMessage">Отправить</string>
     <string name="lastMessage">Последнее сообщение</string>
     <string name="update">Обновить</string>
+    <string name="createGroupChat">Создать беседу</string>
+    <string name="groupChatName">Название беседы</string>
+    <string name="addUsers">Добавить участников</string>
 </resources>

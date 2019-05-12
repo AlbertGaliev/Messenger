@@ -10,6 +10,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".CreateGroupActivity">
+        </activity>
+        <activity android:name=".AddUsersToGroupActivity">
+        </activity>
+        <activity android:name=".GroupActivity">
+        </activity>
         <activity
                 android:name=".MessagesActivity"
                 tools:node="replace">
@@ -19,13 +25,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity"
-                  android:screenOrientation="portrait"
-                  android:configChanges="keyboardHidden|orientation|screenSize">
+        <activity
+                android:name=".RegisterActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".LogInActivity"
-                  android:screenOrientation="portrait"
-                  android:configChanges="keyboardHidden|orientation|screenSize">
+        <activity
+                android:name=".LogInActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="portrait">
         </activity>
         <activity android:name=".UsersActivity">
             <meta-data
