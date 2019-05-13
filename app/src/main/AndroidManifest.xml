@@ -12,8 +12,6 @@
             android:theme="@style/AppTheme">
         <activity android:name=".CreateGroupActivity">
         </activity>
-        <activity android:name=".AddUsersToGroupActivity">
-        </activity>
         <activity android:name=".GroupActivity">
         </activity>
         <activity
