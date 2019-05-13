@@ -56,7 +56,8 @@
             android:layout_marginLeft="32dp" android:layout_marginTop="16dp"/>
     <android.support.v7.widget.RecyclerView
             android:layout_width="0dp"
-            android:layout_height="200dp" android:layout_marginTop="16dp"
+            android:layout_height="245dp" android:layout_marginTop="16dp"
+            app:layoutManager="android.support.v7.widget.GridLayoutManager"
             app:layout_constraintTop_toBottomOf="@+id/group_chatname_textView_create_groupchat"
             android:id="@+id/users_recyclerView_create_groupchat" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
